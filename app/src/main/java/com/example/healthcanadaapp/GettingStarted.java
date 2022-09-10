@@ -1,9 +1,13 @@
 package com.example.healthcanadaapp;
 
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Html;
 import android.view.Gravity;
+import android.view.View;
 import android.widget.Adapter;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -18,10 +22,38 @@ public class GettingStarted extends AppCompatActivity {
     LinearLayout dots;
     SliderAdapter sliderAdapter;
     TextView[] dotss;
+    Button getstarted;
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        SharedPreferences settings = getSharedPreferences("prefs", 0);
+        SharedPreferences.Editor editor = settings.edit();
+        editor.putBoolean("firstRun", false);
+        editor.commit();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.getting_started_1);
+        SharedPreferences settings = getSharedPreferences("prefs", 0);
+        boolean firstRun = settings.getBoolean("firstRun", true);
+        if ( !firstRun )
+        {
+            // here run your first-time instructions, for example :
+            startActivity(new Intent(getApplicationContext(), ScanHealthCard1.class));
+
+
+
+        }
+        getstarted = findViewById(R.id.getstartedbutton);
+        getstarted.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), ScanHealthCard1.class));
+            }
+        });
 
 
         viewPager2 = findViewById(R.id.viewPager22);

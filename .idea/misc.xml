@@ -3,6 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+
+        <entry key="..\:/Users/dhruv/OneDrive/Documents/GitHub/B07Project/Health-Canada-App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1215" />
+        <entry key="..\:/Users/dhruv/OneDrive/Documents/GitHub/B07Project/Health-Canada-App/app/src/main/res/layout/activity_book_appointment.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/dhruv/OneDrive/Documents/GitHub/B07Project/Health-Canada-App/app/src/main/res/layout/activity_book_appointment2.xml" value="0.2" />
+        <entry key="..\:/Users/dhruv/OneDrive/Documents/GitHub/B07Project/Health-Canada-App/app/src/main/res/layout/activity_home_screen.xml" value="0.3" />
+        <entry key="..\:/Users/dhruv/OneDrive/Documents/GitHub/B07Project/Health-Canada-App/app/src/main/res/layout/activity_main.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/dhruv/OneDrive/Documents/GitHub/B07Project/Health-Canada-App/app/src/main/res/layout/activity_scan_health_card1.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/dhruv/OneDrive/Documents/GitHub/B07Project/Health-Canada-App/app/src/main/res/layout/activity_your_information.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/dhruv/OneDrive/Documents/GitHub/B07Project/Health-Canada-App/app/src/main/res/layout/clinics_card.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/dhruv/OneDrive/Documents/GitHub/B07Project/Health-Canada-App/app/src/main/res/layout/content_book_appointment.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/dhruv/OneDrive/Documents/GitHub/B07Project/Health-Canada-App/app/src/main/res/layout/content_main.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/dhruv/OneDrive/Documents/GitHub/B07Project/Health-Canada-App/app/src/main/res/layout/fragment_first.xml" value="0.25052083333333336" />
+
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1195" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1195" />
         <entry key="app/src/main/res/drawable/nextbutton.xml" value="0.201" />
@@ -21,6 +34,7 @@
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.24246826171875002" />
         <entry key="app/src/main/res/layout/activity_terms_and_services.xml" value="0.2664703369140625" />
         <entry key="app/src/main/res/layout/activity_your_information.xml" value="0.4403091430664063" />
+
       </map>
     </option>
   </component>
